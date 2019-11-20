@@ -1,6 +1,7 @@
 body, html {
     height: 100%;
     margin: 0;
+    color: rgba(255,255,255,.8)
 }
 
 .header {
@@ -23,3 +24,21 @@ body, html {
 
 }
 
+.article, .aside {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section-paragraph {
+    font-size: 1em;
+}
+
+footer {
+    background-color: #4a4a4f;
+    padding: 15px;
+}
+
+column {
+    float: left;
+}
