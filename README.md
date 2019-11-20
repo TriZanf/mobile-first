@@ -1,2 +1,0 @@
-# Code Institute
-Mobile first.
